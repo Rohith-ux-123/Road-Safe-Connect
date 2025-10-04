@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Report Accident</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Report Accident</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="register.html">Register Vehicle</a>
+      <a href="report.html">Report Accident</a>
+      <a href="reports.html">View Reports</a>
+    </nav>
+  </header>
+
+  <main>
+    <form id="accidentForm">
+      <input type="text" placeholder="Vehicle Number" required>
+      <input type="text" placeholder="Reporter Name" required>
+      <input type="email" placeholder="Reporter Contact Email" required>
+      <input type="text" placeholder="Location" required>
+      <textarea placeholder="Description" required></textarea>
+      <input type="datetime-local" required>
+      <button type="submit">Submit Accident</button>
+    </form>
+  </main>
+
+  <footer>
+    © 2025 Road Safe Connect
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
